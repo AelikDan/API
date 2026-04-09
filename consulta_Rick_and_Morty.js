@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')();
 
 async function consultarLocalizacao() {
     try {
-        let pag = prompt("Digite o ID da localização (somente números): ");
+        let pag = prompt("Digite o ID do episódio (somente números): ");
         pag = pag.trim();
 
         const url = `https://rickandmortyapi.com/api/location/${pag}`;
